@@ -1,0 +1,46 @@
+// DEBUT DU HERO
+
+* {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.image-class{
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    .text{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        color: white;
+        padding: 11.9vh 0;
+        h2{
+            font-size: 2.7rem;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        p{
+            font-family: 'Brygada 1918', serif;
+            font-size: 0.8rem;
+            font-style: italic;
+            padding: 3vh 0 6vh 0;
+        }
+        .button{
+            padding: 1rem 3rem;
+            background-color: $primary;
+            border-radius: 30px;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            &:hover{
+                background-color: $secondary;
+            }
+        }
+    }
+}
+
+// FIN DU HERO

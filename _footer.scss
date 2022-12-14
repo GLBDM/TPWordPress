@@ -1,0 +1,18 @@
+@import 'color';
+
+footer{
+    .footer{
+        background-color: $darkGrey;
+        .footer-container{
+            width: 80%;
+            margin: auto;
+        }
+    }
+    .foot{
+        background-color: $lightGrey;
+        .foot-container{
+            width: 80%;
+            margin: auto;
+        }
+    }
+}
